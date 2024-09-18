@@ -1,0 +1,15 @@
+// receive data from UART
+
+//HAL_UART_Receive_DMA(&huart1,&rx_buffer[0], 1);
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+    if (huart->Instance == USART1) {
+    	if(rx_buffer[0] == 'a'){
+    	     HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14, GPIO_PIN_SET);
+    	}else{
+    		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14, GPIO_PIN_RESET);
+    	}
+        // Receive the next byte of data (or reset for a continuous stream)
+        HAL_UART_Receive_DMA(&huart1,&rx_buffer[0], 1);
+    }
+}

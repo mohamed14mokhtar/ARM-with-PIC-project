@@ -1,0 +1,8 @@
+../HAL/servo_motor/servo.c:11:6:servo_Motor_Start_angle_90	5
+../HAL/servo_motor/servo.c:31:6:servo_Motor_Start_angle_45	5
+../HAL/servo_motor/servo.c:49:6:servo_Motor_Start_angle_0	5
+../HAL/servo_motor/servo.c:67:6:servo_Motor_Start_angle_N45	5
+../HAL/servo_motor/servo.c:85:6:servo_Motor_Start_angle_N90	5
+../HAL/servo_motor/servo.c:103:6:servo_Motor_Recycler_from_n90_90	9
+../HAL/servo_motor/servo.c:138:6:servo_Motor_Recycler_from_90_n90	9
+../HAL/servo_motor/servo.c:172:6:servo_motor_stop	1

@@ -1,0 +1,4 @@
+../HAL/Bluetooth_module/bluetooth.c:23:19:HAl_Bluetooth_Transimit	32	static
+../HAL/Bluetooth_module/bluetooth.c:43:19:HAl_Bluetooth_Transimit_IT	32	static
+../HAL/Bluetooth_module/bluetooth.c:68:19:HAl_Bluetooth_Recieve	40	static
+../HAL/Bluetooth_module/bluetooth.c:92:19:HAl_Bluetooth_Recieve_IT	32	static
